@@ -16,7 +16,7 @@
 - **Transpose** - takes two Matrix struct pointers as argument and creates a matrix storing the transposition of the first input
 - **GetDimension** - takes Matrix struct pointer as argument and creates an array containing the dimensions
 - **GaussianElim** - takes a Matrix struct pointer of an Augment matrix as argument and performs Gaussian Elimination on input
-- **GaussJordanElim** - takes a Matrix struct pointer of an Augment matrix as argument and performs Gaussian Elimination on input
+- **GaussJordanElim** - takes a Matrix struct pointer of an Augment matrix as argument and performs Gauss-Jordan Elimination on input
 
 To use this library just put the **Matlib.c and Matlib.h** file in your project directory and don't forget to link math library while compiling your project
 
